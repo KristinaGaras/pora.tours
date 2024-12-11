@@ -1,0 +1,21 @@
+* {
+    font-family: 'Unbounded' , sans-serif;
+}
+
+.swiper-wrapper {
+    width: 100%;
+    height: max-content !important;
+    padding-bottom: 64px !important;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+}
+
+.swiper-pagination-bullet {
+    background: #D9D9D9;
+}
+
+#slider-button-left:hover .arrow-left,
+    #slider-button-right:hover .arrow-right {
+        fill: white; /* Цвет стрелки при наведении */
+    }

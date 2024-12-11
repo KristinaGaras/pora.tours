@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Пора путешествовать по-другому, пора, туры, турагенство, Руслан Усачев туры">
+    <meta name="descrition" content="Мы делаем туры в такие места, из которых вы гарантированно привезете миллион историй, чтобы потом рассказать их вашим друзьям.">
+    <title>Пора путешествовать по-другому</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/js/main.js">
+    <link href='https://fonts.googleapis.com/css?family=Unbounded' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</head>
+<body class="m-[30px] bg-[url('/img/bg.svg')] ">
+    <header class="flex flex-col items-center">
+        <div class="flex justify-between w-full">
+            <img src="/img/skipka1.svg" alt="скобка1">
+            <img src="/img/skipka3.svg" alt="скобка3">
+        </div>
+        <div class="flex justify-center items-center my-5 relative">
+            <h1 class="font-semibold text-[60px] text-center leading-[60px] md:text-[40px] sm:text-[30px]">ПОРА ПУТЕШЕСТВОВАТЬ <br>ПО-ДРУГОМУ</h1>
+            <img  class="absolute -right-20 bottom-24 " src="/img/zvezda1.svg" alt="звезда1">
+        </div>
+        <h2 class="font-normal text-base text-center text-[#4C4C4C] sm:text-[14px]">
+            Мы делаем туры, которые Вы запомните на всю жизнь!<br> А заботы берем на себя
+        </h2>
+        <img id="rotating-svg" class="absolute left-80 top-64 transition-transform duration-300" src="/img/zvezda.svg" alt="звезда">
+        <div class="flex justify-between w-full mt-8">
+            <img src="/img/skipka2.svg" alt="скобка2">
+            <img src="/img/skipka4.svg" alt="скобка4">
+        </div>
+    
+        <div class="flex items-center justify-between w-full mt-6 gap-4 ">
+            <nav class="flex justify-center space-x-4 border border-black rounded-[15px] p-4 w-[716px] bg-white hover:text-gray-700 md:w-full md:p-2">
+                <a href="#section1">ЗАЧЕМ ЕХАТЬ?</a>
+                <a href="#section2">РАСПИСАНИЕ</a>
+                <a href="#section3">КТО МЫ?</a>
+                <a href="#section4">ОТЗЫВЫ</a>
+                <a href="#section5">КОНТАКТЫ</a>
+            </nav>
+            <div>
+                <button onclick="location.href='#targetBlock'" class=" bg-black text-white border-black bg-color-white rounded-[20px] p-4 w-[718px] md:w-full">(+)ЗАБРОНИРОВАТЬ МЕСТО</button>
+            </div>
+        </div>
+    </header>
+    
+    
+    <div class="grid grid-cols-4 grid-rows-6 gap-4 mt-10">
+        <div class="row-span-2 col-span-1 w-full h-full rounded-lg overflow-hidden">
+            <img src="/img/Image.jpg" alt="фото" class="w-full h-full object-cover">
+        </div>
+        <div class="col-start-1 row-start-3 col-span-1 w-full h-full rounded-lg overflow-hidden">
+            <img src="/img/Image (3).jpg" alt="фото3" class="w-full h-full object-cover">
+        </div>
+        <div class="col-start-2 row-start-1 col-span-1 w-full h-full rounded-lg overflow-hidden">
+            <img src="/img/Image (1).jpg" alt="фото1" class="w-full h-full object-cover">
+        </div>
+        <div class="col-span-2 row-span-2 col-start-3 row-start-1 w-full h-full rounded-lg overflow-hidden">
+            <img src="/img/Image (2).jpg" alt="фото2" class="w-full h-full object-cover">
+        </div>
+        <div class="row-span-2 col-start-2 row-start-3 col-span-1 w-full h-full rounded-lg overflow-hidden">
+            <img src="/img/Image (4).jpg" alt="фото4" class="w-full h-full object-cover">
+        </div>
+        <div class="row-span-2 col-start-3 row-start-3 col-span-1 w-full h-full rounded-lg overflow-hidden">
+            <img src="/img/Image (5).jpg" alt="фото5" class="w-full h-full object-cover">
+        </div>
+        <div class="col-start-4 row-start-4 col-span-1 w-full h-full rounded-lg overflow-hidden">
+            <img src="/img/Image (6).jpg" alt="фото6" class="w-full h-full object-cover">
+        </div>
+        <div class="col-span-2 row-span-2 col-start-1 row-start-5 w-full h-full rounded-lg overflow-hidden">
+            <img src="/img/Image (7).jpg" alt="фото7" class="w-full h-full object-cover">
+        </div>
+        <div class="row-span-2 col-start-3 row-start-5 col-span-1 w-full h-full rounded-lg overflow-hidden">
+            <img src="/img/Image (10).jpg" alt="фото10" class="w-full h-full object-cover">
+        </div>
+        <div class="row-span-2 col-start-4 row-start-5 col-span-1 w-full h-full rounded-lg overflow-hidden">
+            <img src="/img/Image (9).jpg" alt="фото9" class="w-full h-full object-cover">
+        </div>
+        <div  class="col-start-1 row-start-4 col-span-1 font-semibold text-[40px] flex items-center justify-center h-full "><p>ПОРА!</p></div>
+        <div class="col-start-2 row-start-2 col-span-1 text-[#4C4C4C] font-normal text-base text-center  flex items-center justify-center h-full"><p>Здесь может быть ваше фото.</p></div>
+        <div class="col-start-4 row-start-3 col-span-1 text-[#4C4C4C] font-normal text-base text-center flex items-center justify-center h-full "><p>Кстати, на сайте мы используем только фото из наших туров. Без фильтров.</p></div>
+    </div>
+    
+    <div class="w-full h-0.5 bg-black mt-16 mb-10" id="section1"></div>  
+         
+    <section>
+        <h1  class="font-semibold text-[60px] text-center">ЗАЧЕМ ЕХАТЬ В ТУР С НАМИ?</h1>
+        <div class="grid grid-cols-2 gap-8 mt-10">
+            <div class="flex flex-wrap items-start relative mb-2">
+                <img class="w-1/2" src="/img/Image (12).jpg" alt="фото12">
+                <div class="ml-4 flex-1">
+                    <img class="absolute top-4 left-72 z-1" src="/img/Star 2.svg" alt="star1">
+                    <h2 class="font-medium text-[24px] text-left leading-[25px] mb-64">ВПЕЧАТЛЕНИЯ НА ВСЮ ЖИЗНЬ</h2>
+                    <p class="font-normal text-sm  text-[#4C4C4C] mb-14">Мы делаем туры в такие места,из которых вы гарантированно привезете миллион историй,чтобы потом рассказать их вашим друзьям, коллегам и будущим внукам</p>
+                    <p class="font-medium text-sm  w-full ">Ну и фоточки для соц. сетей,конечно, будут отвал башки</p>
+                </div>
+            </div>
+    
+            <div class="flex items-start mb-2">
+                <img class="w-1/2" src="/img/Image (13).jpg" alt="фото13">
+                <div class="ml-4 flex-1">
+                    <h2 class="font-medium text-[24px] text-left leading-[25px] mb-[300px]">ДЕЙСТВИТЕЛЬНО ОТДОХНЁТЕ</h2>
+                    <p class="font-normal text-sm  text-[#4C4C4C] ">Мы берем всю организацию путешествия на себя, поэтому для Вас отдых действительно будет отдыхом, а не бесконечным бронированием гостиниц, составлением маршрута и поиском билетов на самолеты, поезда и автобусы</p>
+                </div>
+            </div>
+    
+            <div class="flex items-start relative mb-2">
+                <img class="w-1/2" src="/img/Image (14).jpg" alt="фото14">
+                <div class="ml-4 flex-1">
+                    <img class="absolute z-1 top-4 left-72" src="/img/Star 2.svg" alt="star2">
+                    <h2 class="font-medium text-[24px] text-left leading-[25px] mb-48 ">ИНТЕРЕСНАЯ КОМПАНИЯ</h2>
+                    <p class="font-normal text-sm  text-[#4C4C4C] mb-14">Если вы захотели поехать в такие нетривиальные места, то велика вероятность, что и попутчики окажутся интересными ребятами — близкими Вам по духу</p>
+                    <p class="font-medium text-sm ">После недели насыщенной поездки по какой-нибудь Африке между людьми завязывается такая дружба, которая продолжается и после окончания тура</p>
+                </div>
+            </div>
+    
+            <div class="flex items-start mb-2">
+                <img class="w-1/2" src="/img/Image (15).jpg" alt="фото15">
+                <div class="ml-4 flex-1">
+                    <h2 class="font-medium text-[24px] leading-[25px] mb-72">РАСШИРЕНИЕ КРУГОЗОРА</h2>
+                    <p class="font-normal text-sm  text-[#4C4C4C]">Сложно переоценить, как путешествия влияют на то, как мы видим и ощущаем мир, других людей и себя в этом мире. Одна поездка, например, в Африку стоит сотни прочитанных новостей и книг. Особенно если ехать с открытым сердцем</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="w-full h-0.5 bg-black mt-16 mb-10"></div>  
+
+
+    <h1 class="font-semibold text-[60px] text-center leading-[60px]">ОСОБЕННОСТИ <br> ПУТЕШЕСТВИЯ С НАМИ</h1>
+    <section class="container py-12 mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div class="flex flex-col items-center">
+                <p class="text-xs mb-2 text-[#4C4C4C] text-center">(1) Выбираем нетривиальные, нерастиражированные страны, которые, тем не менее, могут удивить</p>
+                <img src="/img/Image (16).jpg" alt="Image (16).jpg" class="max-w-full rounded-lg">
+            </div>
+            <div class="flex flex-col items-center">
+                <p class="text-xs mb-2 text-[#4C4C4C] text-center">(2) Создаем насыщенные и интересные маршруты, посещая только топовые локации</p>
+                <img src="/img/Image (17).jpg" alt="Image (17).jpg" class="w-full rounded-lg">
+            </div>
+            <div class="flex flex-col items-center">
+                <p class="text-xs mb-2 text-[#4C4C4C] text-center">(3) Знакомим с местными жителями, их культурой и укладом. Проводим мастер-классы</p>
+                <img src="/img/Image (18).jpg" alt="Image (18).jpg" class="w-full rounded-lg">
+            </div>
+            <div class="flex flex-col items-center">
+                <p class="text-xs mb-2 text-[#4C4C4C] text-center">(4) Останавливаемся в уютных отелях. Пользуемся комфортным транспортом</p>
+                <img src="/img/Image (19).jpg" alt="Image (19).jpg" class="w-full rounded-lg">
+            </div>
+            <div class="flex flex-col items-center">
+                <p class="text-xs mb-6 text-[#4C4C4C] text-center">(5) Выбираем локальные отели, вместо сетевых, для погружения в культуру</p>
+                <img src="/img/Image (20).jpg" alt="Image (20).jpg" class="w-full rounded-lg">
+            </div>
+            <div class="flex flex-col items-center">
+                <p class="text-xs mb-6 text-[#4C4C4C] text-center">(6) Пробуем культовые блюда локальной кухни</p>
+                <img src="/img/Image (21).jpg" alt="Image (21).jpg" class="w-full rounded-lg">
+            </div>
+            <div class="flex flex-col items-center">
+                <p class="text-xs mb-2 text-[#4C4C4C] text-center">(7) Бережно погружаем в культуру. Сопровождаем в лице местного гида и опытного тур-лидера</p>
+                <img src="/img/Image (22).jpg" alt="Image (22).jpg" class="w-full rounded-lg">
+            </div>
+            <div class="flex flex-col items-center">
+                <p class="text-xs mb-2 text-[#4C4C4C] text-center">(8) Едем небольшой группой от 10 до 16 человек, близких по духу, ценностям и интересам</p>
+                <img src="/img/Image (23).jpg" alt="Image (23).jpg" class="w-full rounded-lg">
+            </div>
+        </div>
+    </section>
+    
+    
+    <div class="w-full h-0.5 bg-black mt-6 mb-10" id="section2"></div>  
+
+    
+    <div >
+        <div class="flex justify-between w-full">
+            <img src="/img/skipka1.svg" alt="скобка1">
+            <img src="/img/skipka3.svg" alt="скобка3">
+        </div>
+            <h1 class="font-semibold text-[60px] text-center ">РАСПИСАНИЕ ТУРОВ</h1>
+            <h2 class="font-normal text-base text-center text-[#4C4C4C]">
+                Выберите, когда хотите поехать:</h2>
+    </div>
+   
+    <section class="container mt-14">
+        <div class="flex items-stretch">
+            <div class="mr-16">
+                <h1 class="text-[60px] md:text-[60px] font-bold mb-6">СОКОТРА</h1>
+                <p class=" text-[#4C4C4C] text-sm  mb-14">(+) Остров с самобытной культурой и невероятной природой, куда не добралась цивилизация</p>
+                <div class="flex">
+                    <p class=" text-[#4C4C4C]  text-xs ">количество<br>человек в группе:</p>
+                    <div class="outline outline-2 px-1 rounded-md ml-14 flex items-center justify-center ">10-12 чел</div>
+                </div>
+                <div class="flex mt-8">
+                    <p class=" text-[#4C4C4C] text-xs  ">когда едем: </p>
+                    <p class="text-xs  ml-24  leading-5">3 - 10 ЯНВАРЯ <br> 1 - 8 АПРЕЛЯ</p>
+                </div>
+                <div class="flex mt-16">
+                    <p class=" text-[#4C4C4C] text-xs mt-4">стоимость:</p>
+                    <p class="text-2xl md:text-3xl font-bold ml-24">200 000</p>
+                </div>
+                <button class="bg-black text-white border-black bg-color-white rounded-[10px] p-3 w-[518px] mt-4">(+) ПОДРОБНЕЕ</button>
+            </div>
+            <div class="flex-none justify-end relative ">
+                <img src="/img/Image (24).jpg" alt="Сокотра" class="float-right rounded-[15px]">
+                <div class="absolute top-8 right-8">
+                    <div class="bg-white px-4 py-2 rounded-md mb-2 text-center ">8 дней</div>
+                    <div class="bg-white px-2 py-2 rounded-md text-center leading-4 w-28">Всё включено</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full h-0.5 bg-black mt-20 mb-10"></div>  
+
+    <section class="container mt-14">
+        <div class="flex items-stretch">
+            <div class="mr-16">
+                <h1 class="text-[60px] md:text-[60px] font-bold mb-6">ИРАН</h1>
+                <p class=" text-[#4C4C4C] text-sm  mb-14">(+) Самой засанкционированной стране в мире есть чем вас удивить: архитектура, природа, наследие Персии, открытые люди — тут есть все.</p>
+                <div class="flex">
+                    <p class=" text-[#4C4C4C]  text-xs ">количество<br>человек в группе:</p>
+                    <div class="outline outline-2 px-1 rounded-md ml-14 flex items-center justify-center ">10-16 чел</div>
+                </div>
+                <div class="flex mt-8 ">
+                    <p class=" text-[#4C4C4C] text-xs  ">когда едем: </p>
+                    <p class="text-sm  ml-24 font-medium leading-5 ">СКОРО МЫ ОПУБЛИКУЕМ<br>РАСПИСАНИЕ</p>
+                </div>
+                <button class="bg-black text-white border-black bg-color-white rounded-[10px] p-3 w-[518px] mt-24">(+) ПОДРОБНЕЕ</button>
+            </div>
+            <div class="flex-none justify-end relative ">
+                <img src="/img/Image (25).jpg" alt="Иран" class="float-right rounded-[15px]">
+                <div class="absolute top-8 right-8">
+                    <div class="bg-white px-6 py-3 rounded-md mb-2 text-center ">9 дней</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full h-0.5 bg-black mt-20 mb-10"></div> 
+
+    <section class="container mt-14">
+        <div class="flex items-stretch">
+            <div class="mr-16">
+                <h1 class="text-[60px] md:text-[60px] font-bold mb-6">КЕНИЯ</h1>
+                <p class=" text-[#4C4C4C] text-sm  mb-14">(+) Уникальная возможность почувствовать себя внутри документалки National Geographic</p>
+                <div class="flex">
+                    <p class=" text-[#4C4C4C]  text-xs ">количество<br>человек в группе:</p>
+                    <div class="outline outline-2 px-1 rounded-md ml-14 flex items-center justify-center ">10-12 чел</div>
+                </div>
+                <div class="flex mt-8">
+                    <p class=" text-[#4C4C4C] text-xs  ">когда едем: </p>
+                    <p class="text-xs  ml-24  leading-5">28 ДЕКАБРЯ - 3 ЯНВАРЯ<br>(НОВЫЙ ГОД)</p>
+                </div>
+                <div class="flex mt-16">
+                    <p class=" text-[#4C4C4C] text-xs mt-4">стоимость:</p>
+                    <p class="text-2xl md:text-3xl font-bold ml-24">320 000</p>
+                </div>
+                <button class="bg-black text-white border-black bg-color-white rounded-[10px] p-3 w-[518px] mt-4">(+) ПОДРОБНЕЕ</button>
+            </div>
+            <div class="flex-none justify-end relative ">
+                <img src="/img/Image (26).jpg" alt="Кения" class="float-right rounded-[15px]">
+                <div class="absolute top-8 right-8">
+                    <div class="bg-white px-4 py-2 rounded-md mb-2 text-center ">7 дней</div>
+                    <div class="bg-white px-2 py-2 rounded-md text-center leading-4 w-28">Всё включено</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full h-0.5 bg-black mt-20 mb-10"></div> 
+
+    <section class="container mt-14">
+        <div class="flex items-stretch">
+            <div class="mr-16">
+                <h1 class="text-[60px] md:text-[60px] font-bold mb-4 -mt-3">КЫРГЫЗСТАН</h1>
+                <p class=" text-[#4C4C4C] text-sm  mb-14">(+) Путешествие в одну из самых недооцененных стран мира. Много красоты и пара лишних килограмм — обеспечены.</p>
+                <div class="flex">
+                    <p class=" text-[#4C4C4C]  text-xs ">количество<br>человек в группе:</p>
+                    <div class="outline outline-2 px-1 rounded-md ml-14 flex items-center justify-center ">12-16 чел</div>
+                </div>
+                <div class="flex mt-8">
+                    <p class=" text-[#4C4C4C] text-xs  ">когда едем: </p>
+                    <p class="text-xs  ml-24  leading-5">13 - 20 АПРЕЛЯ<br>7 АПРЕЛЯ - 4 МАЯ<br>4 - 11 МАЯ</p>
+                </div>
+                <div class="flex mt-11">
+                    <p class=" text-[#4C4C4C] text-xs mt-4">стоимость:</p>
+                    <p class="text-2xl md:text-3xl font-bold ml-24">130 000</p>
+                </div>
+                <button class="bg-black text-white border-black bg-color-white rounded-[10px] p-3 w-[518px] mt-4">(+) ПОДРОБНЕЕ</button>
+            </div>
+            <div class="flex-none justify-end relative ">
+                <img src="/img/Image (27).jpg" alt="Кыргызстан" class="float-right rounded-[15px] ">
+                <div class="absolute top-8 right-8">
+                    <div class="bg-white px-4 py-2 rounded-md mb-2 text-center ">8 дней</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full h-0.5 bg-black mt-20 mb-10"></div> 
+
+    <section class="container mt-14">
+        <div class="flex items-stretch">
+            <div class="mr-16">
+                <h1 class="text-[60px] md:text-[60px] font-bold mb-6">УЗБЕКИСТАН</h1>
+                <p class=" text-[#4C4C4C] text-sm  mb-14">(+) Города Великого шелкового пути и количество вкусной еды не оставят вас равнодушными.</p>
+                <div class="flex">
+                    <p class=" text-[#4C4C4C]  text-xs ">количество<br>человек в группе:</p>
+                    <div class="outline outline-2 px-1 rounded-md ml-14 flex items-center justify-center ">10-12 чел</div>
+                </div>
+                <div class="flex mt-8">
+                    <p class=" text-[#4C4C4C] text-xs  ">когда едем: </p>
+                    <p class="text-xs  ml-24 ">30 МАРТА - 6 АПРЕЛЯ</p>
+                </div>
+                <div class="flex mt-[90px]">
+                    <p class=" text-[#4C4C4C] text-xs mt-4">стоимость:</p>
+                    <p class="text-2xl md:text-3xl font-bold ml-24">130 000</p>
+                </div>
+                <button class="bg-black text-white border-black bg-color-white rounded-[10px] p-3 w-[518px] mt-4">(+) ПОДРОБНЕЕ</button>
+            </div>
+            <div class="flex-none justify-end relative ">
+                <img src="/img/Image (28).jpg" alt="Узбекистан" class="float-right rounded-[15px]">
+                <div class="absolute top-8 right-8">
+                    <div class="bg-white px-4 py-2 rounded-md mb-2 text-center ">8 дней</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full h-0.5 bg-black mt-20 mb-10"></div> 
+    <div class="w-full h-0.5 bg-black mt-20 mb-10" id="section3"></div>
+
+    <section >
+        <h1 class="font-semibold text-[60px] text-left">КТО МЫ?</h1>
+        <div class="grid grid-cols-2 gap-8 mt-16">
+            <div class="flex flex-wrap items-start mb-4">
+                <img class="w-1/2 rounded-[10px]" src="/img/Image (29).jpg" alt="фото12">
+                <div class="ml-4 flex-1 text-left ">
+                    <h2 class="font-semibold text-[30px] text-left leading-[30px] mb-60 w-40">РУСЛАН УСАЧЕВ</h2>
+                    <p class="font-normal text-sm text-[#4C4C4C] mb-14 w-80">(→) Ютуб-блогер с аудиторией канала 2.7М человек. Создатель и ведущий тревел-шоу «Пора валить». И вообще со всех сторон красивый человек. Никогда не был у психотерапевта</p>
+                    <p class="font-medium text-sm  w-full ">Посетил 55 стран</p>
+                </div>
+            </div>
+    
+            <div class="flex items-start mb-2">
+                <img class="w-1/2 rounded-[10px]" src="/img/Image (30).jpg" alt="фото13">
+                <div class="ml-4 flex-1">
+                    <h2 class="font-semibold text-[30px] text-left leading-[30px] mb-60 w-40">ЛИЗА ГОНЧАРОВА</h2>
+                    <p class="font-normal text-sm  text-[#4C4C4C] mb-14 ">(→) Организатор авторских туров в нетривиальные страны, бывший директор по продукту it-компании Joom. Ведущая ютуб-шоу «Цитаты». Фанат психотерапии. Шесть лет жила в Китае</p>
+                    <p class="font-medium text-sm  w-full ">Посетила 71 страну</p>
+                </div>
+            </div>
+    </section>
+
+    <div class="w-full h-0.5 bg-black mt-10 mb-16" id="section4"></div> 
+
+    <section >
+        <div class="flex justify-center items-center my-5 relative mb-10">
+            <img class="absolute left-[450px] top-30 rotate-180" src="/img/zvezda1.svg" alt="звезда">
+            <h1 class="font-semibold text-[60px] text-center leading-[60px]">ОТЗЫВЫ</h1>
+            <img class="absolute right-[450px] bottom-4" src="/img/zvezda1.svg" alt="звезда1">
+        </div>
+        
+    </section>
+
+    <div class="w-full relative">
+        <div class="swiper multiple-slide-carousel swiper-container relative">
+            <div class="swiper-wrapper -mb-8">
+                <div class="swiper-slide border-2 border-black rounded-[20px]">
+                    <div class="rounded-2xl h-[555px] flex">
+                        <div class="flex flex-col justify-start p-4 w-1/2">
+                            <h2 class=" text-[40px]">НИКИТА</h2>
+                            <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg" class="my-4" >
+                                <path d="M18.0247 -2.38419e-06L14.4247 7.68L14.0647 5.24C14.7847 5.24 15.438 5.41333 16.0247 5.76C16.6114 6.10667 17.078 6.57333 17.4247 7.16C17.7714 7.72 17.9447 8.34667 17.9447 9.04C17.9447 9.76 17.7714 10.4133 17.4247 11C17.078 11.56 16.6114 12.0133 16.0247 12.36C15.438 12.7067 14.7847 12.88 14.0647 12.88C13.3447 12.88 12.6914 12.7067 12.1047 12.36C11.518 12.0133 11.038 11.5467 10.6647 10.96C10.318 10.3467 10.1447 9.68 10.1447 8.96C10.1447 8.24 10.3047 7.49333 10.6247 6.72C10.9447 5.92 11.5047 4.92 12.3047 3.72L14.6647 -2.38419e-06H18.0247ZM8.50469 -2.38419e-06L4.94469 7.68L4.54469 5.24C5.29135 5.24 5.94469 5.41333 6.50469 5.76C7.09135 6.10667 7.55802 6.57333 7.90469 7.16C8.27802 7.72 8.46469 8.34667 8.46469 9.04C8.46469 9.76 8.27802 10.4133 7.90469 11C7.55802 11.56 7.09135 12.0133 6.50469 12.36C5.94469 12.7067 5.29135 12.88 4.54469 12.88C3.85135 12.88 3.19802 12.7067 2.58469 12.36C1.99802 12.0133 1.53135 11.5467 1.18469 10.96C0.838021 10.3467 0.664688 9.68 0.664688 8.96C0.664688 8.24 0.824688 7.49333 1.14469 6.72C1.46469 5.92 2.02469 4.92 2.82469 3.72L5.18469 -2.38419e-06H8.50469Z" fill="black"/>
+                            </svg>
+                            <span class="text-base w-80 ">Никогда бы не подумал, что йеменский остров рядом с Сомали окажется таким кайфовым, насыщенным и разнообразным. Горы и дюны, океан и каньон.  Леса из невиданных деревьев, пещеры и первобытные пейзажи. Ночёвки в палатках с костром. И самое главное — всё это в прекрасной компании. Воспоминания о Сокотре греют даже спустя год</span>
+                        </div>
+                        <img src="/img/Image (31).jpg" alt="Image (31).jpg" class="w-1/2 rounded-[25px] p-4">
+                    </div>
+                </div>
+                <div class="swiper-slide border-2 border-black rounded-[20px]">
+                    <div class="rounded-2xl h-[555px] flex">
+                        <div class="flex flex-col justify-start p-4 w-1/2">
+                            <h2 class=" text-[40px]">КАРИНА</h2>
+                            <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg"class="my-4">
+                                <path d="M18.0247 -2.38419e-06L14.4247 7.68L14.0647 5.24C14.7847 5.24 15.438 5.41333 16.0247 5.76C16.6114 6.10667 17.078 6.57333 17.4247 7.16C17.7714 7.72 17.9447 8.34667 17.9447 9.04C17.9447 9.76 17.7714 10.4133 17.4247 11C17.078 11.56 16.6114 12.0133 16.0247 12.36C15.438 12.7067 14.7847 12.88 14.0647 12.88C13.3447 12.88 12.6914 12.7067 12.1047 12.36C11.518 12.0133 11.038 11.5467 10.6647 10.96C10.318 10.3467 10.1447 9.68 10.1447 8.96C10.1447 8.24 10.3047 7.49333 10.6247 6.72C10.9447 5.92 11.5047 4.92 12.3047 3.72L14.6647 -2.38419e-06H18.0247ZM8.50469 -2.38419e-06L4.94469 7.68L4.54469 5.24C5.29135 5.24 5.94469 5.41333 6.50469 5.76C7.09135 6.10667 7.55802 6.57333 7.90469 7.16C8.27802 7.72 8.46469 8.34667 8.46469 9.04C8.46469 9.76 8.27802 10.4133 7.90469 11C7.55802 11.56 7.09135 12.0133 6.50469 12.36C5.94469 12.7067 5.29135 12.88 4.54469 12.88C3.85135 12.88 3.19802 12.7067 2.58469 12.36C1.99802 12.0133 1.53135 11.5467 1.18469 10.96C0.838021 10.3467 0.664688 9.68 0.664688 8.96C0.664688 8.24 0.824688 7.49333 1.14469 6.72C1.46469 5.92 2.02469 4.92 2.82469 3.72L5.18469 -2.38419e-06H8.50469Z" fill="black"/>
+                            </svg>
+                            <span class="text-base w-80">Впервые я поехала с Лизой на Сокотру, и это просто перевернуло мой мир. Серьезно, считаю одним из важнейших поворотов в моей жизни, что я решилась тогда на это путешествие.</span>
+                        </div>
+                        <img src="/img/Image (32).jpg" alt="Image (31).jpg" class="w-1/2 rounded-[25px] p-4">
+                    </div>
+                </div>
+                <div class="swiper-slide border-2 border-black rounded-[20px]">
+                    <div class="rounded-2xl h-[555px] flex">
+                        <div class="flex flex-col justify-start p-4 w-1/2">
+                            <h2 class=" text-[40px]">ВИКА</h2>
+                            <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg"class="my-4">
+                                <path d="M18.0247 -2.38419e-06L14.4247 7.68L14.0647 5.24C14.7847 5.24 15.438 5.41333 16.0247 5.76C16.6114 6.10667 17.078 6.57333 17.4247 7.16C17.7714 7.72 17.9447 8.34667 17.9447 9.04C17.9447 9.76 17.7714 10.4133 17.4247 11C17.078 11.56 16.6114 12.0133 16.0247 12.36C15.438 12.7067 14.7847 12.88 14.0647 12.88C13.3447 12.88 12.6914 12.7067 12.1047 12.36C11.518 12.0133 11.038 11.5467 10.6647 10.96C10.318 10.3467 10.1447 9.68 10.1447 8.96C10.1447 8.24 10.3047 7.49333 10.6247 6.72C10.9447 5.92 11.5047 4.92 12.3047 3.72L14.6647 -2.38419e-06H18.0247ZM8.50469 -2.38419e-06L4.94469 7.68L4.54469 5.24C5.29135 5.24 5.94469 5.41333 6.50469 5.76C7.09135 6.10667 7.55802 6.57333 7.90469 7.16C8.27802 7.72 8.46469 8.34667 8.46469 9.04C8.46469 9.76 8.27802 10.4133 7.90469 11C7.55802 11.56 7.09135 12.0133 6.50469 12.36C5.94469 12.7067 5.29135 12.88 4.54469 12.88C3.85135 12.88 3.19802 12.7067 2.58469 12.36C1.99802 12.0133 1.53135 11.5467 1.18469 10.96C0.838021 10.3467 0.664688 9.68 0.664688 8.96C0.664688 8.24 0.824688 7.49333 1.14469 6.72C1.46469 5.92 2.02469 4.92 2.82469 3.72L5.18469 -2.38419e-06H8.50469Z" fill="black"/>
+                            </svg>
+                            <span class="text-base w-80">Кыргызстан превзашел мои ожидания. Очень понравилось путешествие, буду всем рекомендовать. Горы, реки, каньоны, еда, люди... Больше всего понравилось ущелье Алтын-Арашан и озеро Иссык-Куль. Отдельно отмечу гидов Диму и Машу. Благодаря им путешествие получилось размеренным, безопасным и очень интересным: мы никуда не спешили, на каждой локации было достаточно времени, чтобы успеть насладиться пейзажами и сделать крутые фото.</span>
+                        </div>
+                        <img src="/img/photo_2024-05-25_121.jpeg" alt="Image (31).jpg" class="w-1/2 rounded-[25px] p-4">
+                    </div>
+                </div>
+                <div class="swiper-slide border-2 border-black rounded-[20px]">
+                    <div class="rounded-2xl h-[555px] flex">
+                        <div class="flex flex-col justify-start p-4 w-1/2">
+                            <h2 class=" text-[40px]">ПАША</h2>
+                            <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg"class="my-4">
+                                <path d="M18.0247 -2.38419e-06L14.4247 7.68L14.0647 5.24C14.7847 5.24 15.438 5.41333 16.0247 5.76C16.6114 6.10667 17.078 6.57333 17.4247 7.16C17.7714 7.72 17.9447 8.34667 17.9447 9.04C17.9447 9.76 17.7714 10.4133 17.4247 11C17.078 11.56 16.6114 12.0133 16.0247 12.36C15.438 12.7067 14.7847 12.88 14.0647 12.88C13.3447 12.88 12.6914 12.7067 12.1047 12.36C11.518 12.0133 11.038 11.5467 10.6647 10.96C10.318 10.3467 10.1447 9.68 10.1447 8.96C10.1447 8.24 10.3047 7.49333 10.6247 6.72C10.9447 5.92 11.5047 4.92 12.3047 3.72L14.6647 -2.38419e-06H18.0247ZM8.50469 -2.38419e-06L4.94469 7.68L4.54469 5.24C5.29135 5.24 5.94469 5.41333 6.50469 5.76C7.09135 6.10667 7.55802 6.57333 7.90469 7.16C8.27802 7.72 8.46469 8.34667 8.46469 9.04C8.46469 9.76 8.27802 10.4133 7.90469 11C7.55802 11.56 7.09135 12.0133 6.50469 12.36C5.94469 12.7067 5.29135 12.88 4.54469 12.88C3.85135 12.88 3.19802 12.7067 2.58469 12.36C1.99802 12.0133 1.53135 11.5467 1.18469 10.96C0.838021 10.3467 0.664688 9.68 0.664688 8.96C0.664688 8.24 0.824688 7.49333 1.14469 6.72C1.46469 5.92 2.02469 4.92 2.82469 3.72L5.18469 -2.38419e-06H8.50469Z" fill="black"/>
+                            </svg>
+                            <span class="text-base w-80">Все прошло великолепно, очень понравились пейзажи, как за окном, так и в конечных точках, местная еда и колорит, ребята, гиды Маша и Дима превосходны. Они рассказывали о местности, традициях и многом другом, и это было подкреплено их личным опытом. Ночевка на озере и виды рядом - это нечто, ну а поездка на "шишиге", наверное, теперь в моей памяти навсегда :)</span>
+                        </div>
+                        <img src="/img/EImY2npoarJwyF1OaHNe.jpg" alt="Image (31).jpg" class="w-1/2 rounded-[25px] p-4">
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button id="slider-button-left" class="flex justify-center items-center w-12 h-12 rounded-[15px] hover:bg-[#1F1F1F] bg-[#D9D9D9]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="arrow-left" viewBox="0 0 24 24">
+                        <path d="M15 18l-6-6 6-6v12z"/>
+                    </svg>
+                </button>
+                <button id="slider-button-right" class="flex justify-center items-center w-12 h-12 rounded-[15px] hover:bg-[#1F1F1F] bg-[#D9D9D9] ml-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="arrow-right" viewBox="0 0 24 24">
+                        <path d="M9 6l6 6-6 6V6z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="w-full h-0.5 bg-black mt-10 mb-16" id="targetBlock"></div>
+    
+    
+    <h1 class="font-semibold text-[60px] text-center">ЗАБРОНИРУЙТЕ ТУР СЕЙЧАС!</h1>
+    <h2 class="font-normal text-base text-center text-[#4C4C4C] mb-6">Выберите поездку и оставьте свои контакты, мы свяжемся с вами и все расскажем</h2>
+            
+                
+    <form class="mt-4 flex justify-center"> 
+        <div class="space-y-8"> 
+            <div class="pb-8"> 
+                <div class="py-4 px-4 mx-auto max-w-2xl  lg:py-8 flex flex-col items-center"> 
+                    <div class="inline-block relative w-[550px]  border-black rounded-[10px]"> 
+                        <select class="block appearance-none w-full bg-white text-gray-400 border border-black rounded-md px-4 py-2 pr-8 leading-tight focus:outline-none focus:shadow-outline h-[70px] ">
+                            <option>КЕНИЯ</option>
+                            <option>КЫРГЫЗСТАН</option>
+                            <option>УЗБЕКИСТАН</option>
+                            <option>СОКОТРА ЗАЯВКА В ЛИСТ ОЖИДАНИЯ</option>
+                            <option>ИРАН ЗАЯВКА В ЛИСТ ОЖИДАНИЯ</option>
+                        </select>
+                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                            <svg class="fill-current h-7 w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                        </div>
+                    </div>
+                <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-6"> 
+                    <div class="sm:col-span-3">
+                        <div>
+                            <input type="text" name="first-name" id="first-name" placeholder="*ВАШЕ ИМЯ" class="block w-full h-[70px] rounded-[10px] border border-black px-3 py-1.5 text-base text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600" required>
+                        </div>
+                    </div>
+
+                    <div class="sm:col-span-3">
+                        <div>
+                            <input id="email" name="email" type="email" placeholder="*ВАША ПОЧТА" class="block w-full h-[70px] rounded-[10px] border border-black px-3 py-1.5 text-base text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600" required>
+                        </div>
+                    </div>
+
+                    <div class="sm:col-span-6">
+                        <div>
+                            <input type="tel" name="phone" id="phone" placeholder="+7 (999) 999 99 99" class="block w-full h-[70px] rounded-[10px] border border-black px-3 py-1.5 text-base text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="w-[550px] h-[70px] rounded-[20px] bg-black text-white text-lg ml-4">(+)ЗАБРОНИРОВАТЬ ТУР</button>
+        </div>
+    </form>
+</div>
+
+
+<footer class="bg-gray-200 py-6 px-8 rounded-lg shadow-md">
+    <div class="container mx-auto flex flex-wrap justify-between items-center ">
+      <div class="w-full md:w-1/3 mb-4 md:mb-0">
+        <h3 class="text-lg font-semibold mb-7 mt-1">Контакты:</h3>
+        <p class="mb-3"><a href="tel:+79065169606">+7 (906) 516 96 06</a></p>
+        <p><a href="tel:+79253339459">+7 (925) 333 94 59</a></p>
+      </div>
+      <div class="w-full md:w-1/3 mb-4 md:mb-0 flex flex-col items-center"> 
+        <h3 class="text-lg font-semibold mb-4">Социальные сети:</h3> 
+        <div class="flex space-x-4">
+            <img src="/img/image 1.svg">
+            <img src="/img/image 3.svg">
+            <img src="/img/image 2.svg">
+          </div>
+      </div>
+      <div class="w-full mb-4 md:w-1/3 flex flex-col items-center">
+        <h3 class="text-lg font-semibold mb-12 mt-1">Адрес офиса:</h3>
+        <p>Смоленская пл., д. 3, Москва</p>
+      </div>
+    </div>
+</footer>
+
+  
+                
+
+    <script>
+        var swiper = new Swiper(".multiple-slide-carousel", {
+            loop: true,
+            slidesPerView: 3,
+            spaceBetween: 20,
+            navigation: {
+                nextEl: "#slider-button-right", 
+                prevEl: "#slider-button-left",
+            },
+            breakpoints: {
+            1920: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            },
+            1028: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            990: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            }
+            }
+        });
+
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault(); // Отменяем стандартное поведение
+
+                const target = document.querySelector(this.getAttribute('href'));
+                const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+                const startPosition = window.pageYOffset;
+                const distance = targetPosition - startPosition;
+                const duration = 500; // Время в миллисекундах
+                let start = null;
+
+                function animation(currentTime) {
+                    if (start === null) start = currentTime;
+                    const timeElapsed = currentTime - start;
+                    const run = ease(timeElapsed, startPosition, distance, duration);
+                    window.scrollTo(0, run);
+                    if (timeElapsed < duration) requestAnimationFrame(animation);
+                }
+
+                function ease(t, b, c, d) {
+                    t /= d / 2;
+                    if (t < 1) return c / 2 * t * t + b;
+                    t--;
+                    return -c / 2 * (t * (t - 2) - 1) + b;
+                }
+
+                requestAnimationFrame(animation);
+            });
+        });
+
+        let lastScrollTop = 0;
+        const rotatingStar = document.getElementById('rotating-svg');
+
+        window.addEventListener('scroll', function() {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop) {
+                // Скролл вниз
+                rotatingStar.style.transform = `rotate(${(scrollTop / 5)}deg)`; // Увеличьте или уменьшите делитель для изменения скорости вращения
+            } else {
+                // Скролл вверх
+                rotatingStar.style.transform = `rotate(${(scrollTop / 5)}deg)`; // Оставляем угол вращения прежним
+            }
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Для мобильных устройств или при прокрутке вверх
+        });
+
+        </script>  
+
+
+
+
+
+
+
+    
+    
+    
+
+
+</body>
+
+</html>
+
+
